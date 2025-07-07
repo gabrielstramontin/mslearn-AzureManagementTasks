@@ -20,25 +20,17 @@ If you already have a Microsoft Azure account to use for this lab, skip to **Log
 In order to make clean-up easy at the end, start with creating a new resource group to hold the resources for this guided project. Using resource groups to organize things is a quick way to ensure you can manage resources when a project is over.
 1.	From the Azure portal home page, in the search box, enter resource groups.
 2.	Select **Resource groups** under services.
-
 ![Screenshot of the Azure home page with resource groups in the search bar.](./Media/resource-group-search.png)
-
 3.	 Select **Create**.
-
 ![Screenshot of the resource groups blade with the create button highlighted.](./Media/create-resource-group.png)
-
 >[!NOTE]
 >Your subscription should already be selected. If you have multiple Azure subscriptions associated with this login, select the one you’d like to use for the guided project.
-
 4.	Enter `guided-project-rg` in the **Resource group name** field.
 5.	The **Region** field will automatically populate. Leave the default value.
 6.	Select **Review + create**.
 7.	Select **Create**.
-
 ![Screenshot of the resource group review and create page with the create button highlighted.](./Media/resource-group-create.png)
-
 8.	Return to the home page of the Azure portal by selecting **Home**.
-
 ![Screenshot of the resource group blade with the Azure home button highlighted.](./Media/create-resource-group-home.png)
 
 ## Create a virtual network with one subnet
