@@ -22,8 +22,7 @@ In order to make clean-up easy at the end, start with creating a new resource gr
 ![Screenshot of the Azure home page with resource groups in the search bar.](./Media/resource-group-search.png)
 3.	 Select **Create**.
 ![Screenshot of the resource groups blade with the create button highlighted.](./Media/create-resource-group.png)
->[!NOTE]
->Your subscription should already be selected. If you have multiple Azure subscriptions associated with this login, select the one you’d like to use for the guided project.
+> **Note:** Your subscription should already be selected. If you have multiple Azure subscriptions associated with this login, select the one you’d like to use for the guided project.
 4.	Enter `guided-project-rg` in the **Resource group name** field.
 5.	The **Region** field will automatically populate. Leave the default value.
 6.	Select **Review + create**.
