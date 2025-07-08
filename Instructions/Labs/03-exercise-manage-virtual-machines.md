@@ -25,6 +25,7 @@ With the network settings updated to support segmenting the Linux virtual machin
 10.	Select **Apply*.
 ![Screenshot of the IP Configurations for the virtual machine with the subnet updated and the Apply button highlighted.](./Media/virtual-machine-network-apply.png)
 11.	Select **Home** to return to the Azure portal home page.
+
 Good job! You’ve migrated the VM from one subnet to another. Remember, the new subnet had specific network security rules applied to help it function as an FTP server.
 The next task from the Azure admin relates to the computing power of the VM. The admin would like you to vertically scale the machine to increase the computing power.
 
@@ -39,7 +40,9 @@ The next task from the Azure admin relates to the computing power of the VM. The
 ![Screenshot of the virtual machine Size blade with a different processor selected and the resize button highlighted.](./Media/virtual-machine-resize.png)
 > **Note:** The VM size may not update in the Azure UI until the VM is restarted.
 7.	Select **Home** to return to the Azure portal home page.
+
 Well done. With the VM scaled up to a more robust processor, it can handle the new role it’s being assigned.
+
 However, now the Azure admin realizes that if the VM is going to server as an FTP server, it needs more storage. The Azure admin asked you to attach a new data disk to the VM.
 
 ## Attach data disks to a virtual machine
@@ -59,8 +62,9 @@ However, now the Azure admin realizes that if the VM is going to server as an FT
 
 Nice! Now the VM has enough storage to handle some uploads.
 
-## Configure automatic shutdown on a virtual machine
 The final thing the Azure admin is concerned about is the cost of running the computer 24 hours a day. The first thing they’ll do every morning is start up the FTP server. However, they’d like you to configure it to automatically shutdown every day at 7 PM Coordinated Universal Time (UTC).
+
+## Configure automatic shutdown on a virtual machine
 1.	From the Azure portal home page, in the search box, enter **virtual machines**.
 2.	Select **virtual machines** under services.
 3.	Select the *guided-project-vm* virtual machine.
