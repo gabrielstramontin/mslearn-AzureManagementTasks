@@ -4,6 +4,7 @@ lab:
 ---
 
 # Exercise – Update the virtual network
+
 > **Note:** Ensure you complete the **Prepare** exercise before stating this exercise. If you haven’t completed the **Prepare** exercise, the resources needed for this exercise will not be available.
 
 ## Scenario
@@ -29,7 +30,7 @@ The current subnet should be left alone, as there are future plans for using it 
 
 Congratulations – you’ve completed the creation of a subnet. This subnet is only going to be used for SFTP traffic. To increase security, you need to configure a **Network security group** to restrict which ports are allowed on the subnet.
 
-### Create a network security group
+## Create a network security group
 1.	From the Azure portal home page, in the search box, enter **virtual networks**.
 2.	Select **virtual networks** under services.
 3.	Select **Network security groups**.
