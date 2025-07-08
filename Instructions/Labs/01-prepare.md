@@ -8,7 +8,7 @@ In the prepare exercise, you set up the environment to complete the rest of the 
 
 ## Need an Azure account?
 If you already have a Microsoft Azure account to use for this lab, skip to **Login to Microsoft Azure**. If you need to create an Azure account, complete the following steps.
-1.	Go to the [Azure free account](https://azure.microsoft.com/free/dotnet/) page.
+1.	Go to the [Azure free account](https://azure.microsoft.com/free/dotnet/){:target="_blank"} page.
 2.	Select **Try Azure for free**
 3.	Complete the sign-up process for an Azure account. 
 
