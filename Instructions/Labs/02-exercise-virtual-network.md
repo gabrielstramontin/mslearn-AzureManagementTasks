@@ -5,6 +5,7 @@ lab:
 
 # Exercise – Update the virtual network
 > **Note:** Ensure you complete the **Prepare** exercise before stating this exercise. If you haven’t completed the **Prepare** exercise, the resources needed for this exercise will not be available.
+
 ## Scenario
 You’re helping an Azure Admin maintain resources. While you won’t be responsible for maintaining the entire infrastructure, the Admin will ask you to help out by completing certain tasks.
 Currently, there’s a Linux virtual machine (VM) that’s underutilized, and a need for a new Linux machine to serve as an FTP server. However, the Azure admin wants to be able to track network flow and resource utilization for the needed FTP server, so has asked you to start out by provisioning a new subnet.
