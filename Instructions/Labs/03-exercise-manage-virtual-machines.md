@@ -56,7 +56,8 @@ However, now the Azure admin realizes that if the VM is going to server as an FT
 10.	Select **Apply** to create the new storage disk and attach the disk to the machine.
 ![Screenshot of the virtual machine disks blade with data disk configuration entered and the Apply button highlighted.](./Media/virtual-machine-attach-disk.png)
 11.	Select **Home** to return to the Azure portal home page.
-Nice! Now the VM has enough storage to handle some uploads. The final thing the Azure admin is concerned about is the cost of running the computer 24 hours a day. Corporate policy dictates that FTP uploads are only accepted between the hours of 1 AM and 7 PM Coordinated Universal Time (UTC). The Azure admin would like you to configure the VM to be running during those hours.
+
+Nice! Now the VM has enough storage to handle some uploads.
 
 ## Configure automatic shutdown on a virtual machine
 The final thing the Azure admin is concerned about is the cost of running the computer 24 hours a day. The first thing they’ll do every morning is start up the FTP server. However, they’d like you to configure it to automatically shutdown every day at 7 PM Coordinated Universal Time (UTC).
