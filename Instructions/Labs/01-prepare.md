@@ -4,7 +4,7 @@ lab:
 ---
 > **Note:** This guided project requires an active Azure subscription. Where possible, follow recommended naming conventions to make it easier to clean up the resource for this project at the end. Creating and using Azure resources for this project may increase your Azure costs.
 
-In the prepare exercise, you set up the environment to complete ethe rest of the steps. 
+In the prepare exercise, you set up the environment to complete the rest of the steps. 
 
 ## Need an Azure account?
 If you already have a Microsoft Azure account to use for this lab, skip to **Login to Microsoft Azure**. If you need to create an Azure account, complete the following steps.
@@ -13,7 +13,7 @@ If you already have a Microsoft Azure account to use for this lab, skip to **Log
 3.	Complete the sign-up process for an Azure account. 
 
 ## Login to Microsoft Azure
-1.	Login to Microsoft Azure at https://portal.azure.com
+1.	Login to Microsoft Azure at [https://portal.azure.com](https://portal.azure.com)
 
 ## Create a resource group
 In order to make clean-up easy at the end, start with creating a new resource group to hold the resources for this guided project. Using resource groups to organize things is a quick way to ensure you can manage resources when a project is over.
