@@ -20,6 +20,8 @@ In order to make clean-up easy at the end, start with creating a new resource gr
 1.	From the Azure portal home page, in the search box, enter resource groups.
 2.	Select **Resource groups** under services.
 ![Screenshot of the Azure home page with resource groups in the search bar.](./Media/resource-group-search.png)
+> **Important:** Take note of other resource groups that are already created. During clean up, you want to avoid deleting resource groups that were already here. Pay special attention for a resource group called NetworkWatcherRG. If it doesn't already exist, the NetworkWatcherRG will be created during this guided project and should be deleted at the end. **However**, if the NetworkWatcherRG already exists prior to starting this project, you should **NOT** delete it at the end. It may be helpful to take a screenshot of resource groups that exist before you create the group for the guided project.
+
 3.	 Select **Create**.
 ![Screenshot of the resource groups blade with the create button highlighted.](./Media/create-resource-group.png)
 > **Note:** Your subscription should already be selected. If you have multiple Azure subscriptions associated with this login, select the one you’d like to use for the guided project.
