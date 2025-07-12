@@ -19,14 +19,16 @@ The Azure admin wants you to get more familiar with storage accounts, containers
 ![Screenshot of the storage account containers page with the + Add container button highlighted.](./Media/storage-account-add-container.png)
 7.	In the **Name** field, enter `storage-container`.
 8.	Select **Create**.
+
 Great! With a storage container created, you can upload a blob to the container. Locate a picture that you can upload, either on your computer or from the internet, and save it locally to make uploading easier.
 
-### Upload a file to the storage container and upload a file
+### Upload a file to the storage container
 1.	Select the storage container you just created.
 ![Screenshot of the storage containers page with storage-container highlighted.](./Media/storage-account-storage-container.png)
 2.	Select **Upload** and upload the file you prepared.
 ![Screenshot of the file upload process for a storage container.](./Media/storage-container-upload.png)
 3.	Once the file is ready for upload, select **Upload**.
+
 With the file uploaded, notice that the Access tier is displayed. For something we uploaded just for testing, it doesn’t need to be assigned to the **Hot** access tier. In the next few steps, you’ll change the access tier for the file.
 
 ### Change the access tier
@@ -66,7 +68,7 @@ The next piece of the puzzle is figuring one way to control access to the files 
 5.	Expand **Blob containers**.
 > **Note:** Blob container is another name for the storage containers. Items uploaded to a storage container are called **blobs**.
 6.	Select the storage container you created earlier, **storage-container**.
-![Screenshot of the storage account page with storage browser, blob containers, and a storage blob highlighted.](./Media/storage-browser-storage-container.png)
+![Screenshot of the storage account page with storage browser, blob containers, and a storage blob highlighted.](./Media/storage-browser-storage-blob.png)
 7.	Select the ellipses (three dots) on the end of the line for the image you uploaded.
 ![Screenshot of the menu selection for a storage blob with the ellipses highlighted.](./Media/storage-blob-ellipses.png)
 8.	Select **Generate SAS**.
@@ -99,4 +101,4 @@ With the SAS token created, anyone with that link can access the file for the du
 ![Screenshot of regenerate access key pop-up with the Yes button highlighted.](./Media/rotate-key-warning.png)
 8.	Once you see the success message for rotating the access key, go back to the window or tab you used to check the SAS token and refresh the page. You should receive an authentication failed error.
 
-Congratulations, you’ve completed working with Azure storage.
+Congratulations! You've completed this exercise. Return to Microsoft Learn to continue the guided project.
