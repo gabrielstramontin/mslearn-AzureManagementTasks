@@ -17,7 +17,7 @@ If you already have a Microsoft Azure account to use for this lab, skip to **Log
 
 ## Create a resource group
 In order to make clean-up easy at the end, start with creating a new resource group to hold the resources for this guided project. Using resource groups to organize things is a quick way to ensure you can manage resources when a project is over.
-1.	From the Azure portal home page, in the search box, enter resource groups.
+1.	From the Azure portal home page, in the search box, enter **resource groups**.
 2.	Select **Resource groups** under services.
 ![Screenshot of the Azure home page with resource groups in the search bar.](./Media/resource-group-search.png)
 > **Important:** Take note of other resource groups that are already created. During clean up, you want to avoid deleting resource groups that were already here. Pay special attention for a resource group called NetworkWatcherRG. If it doesn't already exist, the NetworkWatcherRG will be created during this guided project and should be deleted at the end. **However**, if the NetworkWatcherRG already exists prior to starting this project, you should **NOT** delete it at the end. It may be helpful to take a screenshot of resource groups that exist before you create the group for the guided project.
@@ -40,7 +40,7 @@ In order to make clean-up easy at the end, start with creating a new resource gr
 3.	Select **Create**.
 ![Screenshot of the server manager menu with the alert icon displayed.](./Media/virtual-network-create.png)
 > **Note:** The subscription and resource group should automatically fill in. Verify that the information filled in matches the correct subscription and the new resource group created for the guided project (guided-project-rg if you’re following along with the naming conventions).
-4.	Scroll down to the **Instance details** section and `guided-project-vnet` for the Virtual network name.
+4.	Scroll down to the **Instance details** section and enter `guided-project-vnet` for the Virtual network name.
 5.	Select **Review + create**.
 ![Screenshot of the server manager menu with the alert icon displayed.](./Media/virtual-network-review-create.png)
 6.	Select **Create**.
@@ -57,25 +57,23 @@ In order to make clean-up easy at the end, start with creating a new resource gr
 > **Note:** The subscription should automatically fill in. Verify that the information filled in matches the correct subscription.
 4.	Select **guided-project-rg** for the **Resource group**.
 5.	Enter `guided-project-vm` for the **Virtual machine name**.
-6.	Continue further on the **Basics** page to the **Administrator account** section.
-7.	Select **Password** for authentication type.
-8.	Enter ` guided-project-admin` for the admin **Username**.
-9.	Enter a password for the admin account.
-10.	Confirm the password for the admin account.
-11.	Leave the rest of the settings as default settings. You can review the settings if you like, but shouldn’t change any.
-12.	Select **Review + create**.
+6. For the **Image**, select one of the **Ubuntu Server** options. (For example, Ubuntu Server 24.04 LTS - x64 Gen2)
+7.	Continue further on the **Basics** page to the **Administrator account** section.
+8.	Select **Password** for authentication type.
+9.	Enter `guided-project-admin` for the admin **Username**.
+10.	Enter a password for the admin account.
+11.	Confirm the password for the admin account.
+12.	Leave the rest of the settings as default settings. You can review the settings if you like, but shouldn’t change any.
+13.	Select **Review + create**.
 > **Note:** Once validation has passed, you’ll receive a cost estimate of how much it will cost per hour to run the VM.
-13.	Select **Create** to confirm the resource cost and create the virtual machine.
-14.	 **Instance details** section and `guided-project-vnet` for the Virtual network name.
-15.	Wait for the screen to refresh and show **Your deployment is complete**.
-16.	Select **Home** to return to the Azure portal home page.
+14.	Select **Create** to confirm the resource cost and create the virtual machine.
+15.	Select **Home** to return to the Azure portal home page.
 
 ## Create a Storage account
 1.	From the Azure portal home page, in the search box, enter **storage accounts**.
 2.	Select **Storage accounts** under services.
 ![Screenshot of the Azure home page with storage accounts in the search bar.](./Media/storage-account-search.png)
 3.	Select **Create**.
-![Screenshot of the server manager menu with the alert icon displayed.](./Media/virtual-network-create.png)
 > **Note:** The subscription and resource group should automatically fill in. Verify that the information filled in matches the correct subscription and the new resource group created for the guided project (guided-project-rg if you’re following along with the naming conventions).
 4.	Scroll down to the **Instance details** section and enter a name for the storage account. Storage accounts must be globally unique, so you may have to try a few different times to get a storage account name.
 5.	Select **Review + create**.
@@ -83,3 +81,5 @@ In order to make clean-up easy at the end, start with creating a new resource gr
 6.	Select **Create**.
 7.	Wait for the screen to refresh and show **Your deployment is complete**.
 8.	Select **Home** to return to the Azure portal home page.
+
+Congratulations! You've completed the **Prepare** exercise. Return to Microsoft Learn to continue the guided project.
