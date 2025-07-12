@@ -22,7 +22,7 @@ With the network settings updated to support segmenting the Linux virtual machin
 8.	Select the Network interface / IP configuration hyperlink for the VM.
 ![Screenshot of the network settings for the virtual machine with the network interface card highlighted.](./Media/virtual-machine-network-interface.png)
 9.	On the **IP Configurations** page, update the **Subnet** to *ftpSubnet*.
-10.	Select **Apply*.
+10.	Select **Apply**.
 ![Screenshot of the IP Configurations for the virtual machine with the subnet updated and the Apply button highlighted.](./Media/virtual-machine-network-apply.png)
 11.	Select **Home** to return to the Azure portal home page.
 
@@ -69,10 +69,12 @@ The final thing the Azure admin is concerned about is the cost of running the co
 2.	Select **virtual machines** under services.
 3.	Select the *guided-project-vm* virtual machine.
 4.	Under the **Operations** submenu, select **Auto-shutdown**.
-![Screenshot of the virtual machine blade with the operations submenu expanded and auto-shutdown highlighted.](./Media/virtual-machine-auto-shutdown..png)
+![Screenshot of the virtual machine blade with the operations submenu expanded and auto-shutdown highlighted.](./Media/virtual-machine-auto-shutdown.png)
 5.	In order to let late uploads finish, set the **Scheduled shutdown** to `7:15:00 PM`.
 6.	Select **Save**.
-![Screenshot of the virtual machine blade with the operations submenu expanded and auto-shutdown highlighted.](./Media/virtual-machine-auto-shutdown..png)
+![Screenshot of the virtual machine blade with the operations submenu expanded and auto-shutdown highlighted.](./Media/virtual-machine-auto-shutdown.png)
 7.	Select **Home** to return to the Azure portal home page.
 
 Congratulations! You’ve successfully completed all of the management tasks the Azure admin needed a hand with for the virtual machine.
+
+Congratulations! You've completed this exercise. Return to Microsoft Learn to continue the guided project.
