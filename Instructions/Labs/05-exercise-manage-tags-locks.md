@@ -21,7 +21,7 @@ You’ll start by adding a pair of tags to the virtual machine. One tag will be 
 5.	From the menu pane, select **Tags**.
 ![Screenshot of the virtual machine blade with the Tags menu item highlighted.](./Media/virtual-machine-tags.png)
 6.	On one line for **Name** enter `Department` and for **Value** enter `Customer Service`
-7.	On the next line, for **Name** enter `Purpose` and for **Value** enter FTP Server`.
+7.	On the next line, for **Name** enter `Purpose` and for **Value** enter `FTP Server`.
 8.	Select **Apply**.
 ![Screenshot of the virtual machine tags page with two tags filled in and the Apply button highlighted.](./Media/virtual-machine-tags-apply.png)
 
@@ -49,10 +49,10 @@ That’s it. Now the VM is protected from deletion and has tags assigned to help
 4.	From the menu pane, select **Tags**.
 > **Note:** Notice that now you can select an existing tag to apply or add a new tag. You can also select just the name or value and apply create something new in the other field.
 5.	For the **Name** select **Department**.
-6.	For the **Value** enter **IT**.
+6.	For the **Value** enter `IT`.
 7.	Select **Apply**.
 ![Screenshot of the virtual networks tags page with the Apply button highlighted.](./Media/virtual-networks-tags.png)
 
 Now both the VNet and VM have are organized.
 
-1.	Select **Home** to return to the Azure portal home page.
+Congratulations! You've completed this exercise. Return to Microsoft Learn to continue the guided project.
