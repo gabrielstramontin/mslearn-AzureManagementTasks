@@ -44,9 +44,8 @@ Congratulations – you’ve completed the creation of a subnet. This subnet is 
 ![Screenshot of the create network security group blade with the Review + create button highlighted.](./Media/network-security-group-review-create.png)
 9.	Once the validation is complete, select **Create**.
 10.	Wait for the screen to refresh and display **Your deployment is complete**.
-11.	Select **Home** to return to the Azure portal home page.
-12.	Select **Go to resource**.
-13.	![Screenshot of the network security group deployment complete screen with the Go to resource button highlighted.](./Media/network-security-goto-resource.png)
+11.	Select **Go to resource**.
+12.	![Screenshot of the network security group deployment complete screen with the Go to resource button highlighted.](./Media/network-security-goto-resource.png)
 
 ### Create an inbound security rule
 1.	Under settings, select **Inbound security rules**.
@@ -67,6 +66,8 @@ Congratulations – you’ve created a new Network security group and configured
 5.	Select the **ftpSubnet** you created.
 6.	On the Edit subnet page, under the Security section heading, update the Network security group field to **ftpNSG**.
 7.	Select **Save**.
-![Screenshot of the Edd subnet screen with the Network security group set to ftpNSG and the Save button highlighted.](./Media/associate-security-group-subnet.png)
+![Screenshot of the Edit subnet screen with the Network security group set to ftpNSG and the Save button highlighted.](./Media/associate-security-group-subnet.png)
 
 Nicely done. It looks like you’ve completed the work needed to prepare the network for shifting the current Linux VM to a new subnet that’s designed to handle incoming FTP traffic.
+
+Congratulations! You've completed this exercise. Return to Microsoft Learn to continue the guided project.
