@@ -1,16 +1,13 @@
-# Microsoft Lab Exercises
-<!-- Change the title above as appropriate -->
+# Microsoft Azure Management Tasks:
+For more information about this Microsoft Applied Skills, please check **[Microsoft Learn Documentation](https://learn.microsoft.com/en-us/credentials/applied-skills/get-started-with-azure-management-tasks/)**
 
-<!-- Review the notes in the index.md file to set up the repo for GitHub Pages -->
+### Prepare for your assessment:
+**[AZ-100 Learning Path](https://learn.microsoft.com/en-us/training/paths/introduction-microsoft-azure-management-tasks/)**
 
-This repo contains exercises and supporting files for Microsoft skilling content.
-
-The exercises may be used in both self-paced skilling experiences on [Microsoft Learn](https://learn.microsoft.com) and in Microsoft authorized instructor-led training.
-<!-- Update the paragraph above with a link to a specific Learning Path or course as appropriate -->
-
-## Information for MCTs
-<!-- You can remove this section if the exercises will not be used to support Microsoft Official Curriculum ILT -->
-
-**Are you an MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
-
-Any MCT (Microsoft Certified Trainer) can submit a pull request to the code or content in the GitHub repro. Microsoft and the course author will then triage and include content and lab code changes as needed. You can submit bugs, changes, improvement, and ideas. Find a new Azure or Microsoft 365 feature before we have? Submit a new demo!
+### Labs Exercises:
+- [Exercise 01](https://microsoftlearning.github.io/AZ-100-Get-started-with-Microsoft-Azure-Management-tasks/Instructions/Labs/01-prepare.html): Prepare your environment.
+- [Exercise 02](https://microsoftlearning.github.io/AZ-100-Get-started-with-Microsoft-Azure-Management-tasks/Instructions/Labs/02-exercise-virtual-network.html): Update the Virtual Network.
+- [Exercise 03](https://microsoftlearning.github.io/AZ-100-Get-started-with-Microsoft-Azure-Management-tasks/Instructions/Labs/03-exercise-manage-virtual-machines.html): Manage Virtual Machines.
+- [Exercise 04](https://microsoftlearning.github.io/AZ-100-Get-started-with-Microsoft-Azure-Management-tasks/Instructions/Labs/04-exercise-control-storage-access.html): Control Storage Access.
+- [Exercise 05](https://microsoftlearning.github.io/AZ-100-Get-started-with-Microsoft-Azure-Management-tasks/Instructions/Labs/05-exercise-manage-tags-locks.html): Manage Tags and Locks.
+- [Exercise 06](https://microsoftlearning.github.io/AZ-100-Get-started-with-Microsoft-Azure-Management-tasks/Instructions/Labs/06-exercise-clean-up.html): Clean up your environment.
